@@ -1,0 +1,21 @@
+body {
+    background: url('images/cloth.png');
+}
+
+.navbar {
+    height: 100px;
+}
+
+.navbar .navbar-brand {
+    font-size: 30px;
+    /* padding: 27px; */
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.navbar .navbar-nav {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.container {
+   
+}
