@@ -17,6 +17,7 @@ body {
 
 #main {
     margin-top: 130px;
+    margin-bottom: 130px;
     height: 500px;
     overflow:auto;
 }
@@ -38,4 +39,12 @@ p {
     height: 220px;
     float: left;
     padding-bottom: 10px;
+}
+
+hr {
+    border-width: 3px;
+}
+
+footer {
+    border-bottom-width: 3px;
 }
