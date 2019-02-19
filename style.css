@@ -55,6 +55,17 @@ hr {
     border-width: 3px;
 }
 
+.form-group {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+    color: #777777;
+}
+
+.btn {
+    background-color: #4aaaa5;
+    border: none;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
 #footer {
     border-top: 8px solid #4aaaa5;
     background-color:#666666;
