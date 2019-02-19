@@ -33,7 +33,6 @@ h2 {
     font-size: 30px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #4aaaa5;
-    padding-top: 20px;
 }
 
 p {
@@ -46,12 +45,10 @@ p {
     width: 160px;
     height: 220px;
     float: left;
-    padding-bottom: 10px;
 }
 
 hr {
     border-width: 3px;
-    margin-bottom: 0;
 }
 
 .form-group {
