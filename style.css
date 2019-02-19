@@ -27,7 +27,7 @@ body {
 #main {
     margin-top: 130px;
     margin-bottom: 130px;
-    height: 500px;
+    height: 550px;
     overflow:auto;
 }
 
@@ -43,7 +43,6 @@ p {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
     color: #777777;
 }
-
 
 #portfolio-pic {
     width: 160px;
