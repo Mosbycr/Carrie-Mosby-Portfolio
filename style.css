@@ -66,6 +66,18 @@ hr {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+.card {
+   border: none;
+} 
+
+#card {
+    padding:0;
+}
+
+.img-words {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
 #footer {
     border-top: 8px solid #4aaaa5;
     background-color:#666666;
@@ -74,3 +86,4 @@ hr {
 #copyright {
     font-size: 12px;
 }
+
