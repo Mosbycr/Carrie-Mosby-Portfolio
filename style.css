@@ -71,6 +71,10 @@ hr {
     background-color: rgb(96, 171, 236);
 }
 
+.card-text {
+    text-decoration: none;
+}
+
 .img-words {
     font-family: 'Georgia', Times, Times New Roman, serif;
     background-color:#4aaaa5;
