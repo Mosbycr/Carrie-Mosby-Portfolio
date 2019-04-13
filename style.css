@@ -1,91 +1,59 @@
+html, body {
+    height: 100%;
+}
+
 body {
-    background: url('images/cloth.png');
+    background:  linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),url('images/bark.jpg') no-repeat center fixed; 
+    background-size: cover;
+    background-color:rgb(196, 225, 250);
+}
+
+.fontOne {
+font-family: 'Courgette', cursive;
+}
+
+.fontTwo {
+font-family: 'Domine', serif;
+}
+
+.textColor {
+color: rgb(232, 240, 247);
 }
 
 .navbar {
-    height: 100px;
-    border-bottom: 2px solid  #cccccc; 
-}
-.navbar .navbar-brand {
-    font-size: 30px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    padding: 20px;
-}
-
-.navbar .navbar-nav {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
-
-#logo {
-     background-color: #4aaaa5;
-}
-
-.nav-link {
-     color: #777777;
+    background-color: rgb(232, 240, 247);
+    border-bottom: 2px solid white;
 }
 
 #main {
-    margin-top: 130px;
-    margin-bottom: 130px;
-    padding-bottom: 20px;
+    margin-top: 90px;
+    margin-bottom: 40px;
+    background-color:rgb(148, 146, 146, .5);
 }
 
-h2 {
-    font-size: 30px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    color: #4aaaa5;
-}
-
-p {
+.aboutText {
+    text-indent: 50px;
     line-height: 2.0;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
-    color: #777777;
+    font-size: 18px;
 }
 
 #portfolio-pic {
-    width: 160px;
     height: 220px;
-    float: left;
-}
-
-hr {
-    border-width: 3px;
-}
-
-.form-group {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
-    color: #777777;
-}
-
-.btn {
-    background-color: #4aaaa5;
-    border: none;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-}
-
-.card {
-   border: none;
-}
-
-.card-body {
-    background-color: rgb(96, 171, 236);
-}
-
-.card-text {
-    text-decoration: none;
-}
-
-.img-words {
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    background-color:#4aaaa5;
+    border: 2px solid white;
 }
 
 #footer {
-    border-top: 8px solid #4aaaa5;
-    background-color:#666666;
+    background-color: rgb(232, 240, 247);
+    border-top: 2px solid white;
 }
 
-#copyright {
-    font-size: 12px;
+a {
+    color: inherit;
 }
 
+a:hover {
+    color: coral;
+}
