@@ -3,11 +3,7 @@ html, body {
 }
 
 body {
-    background:  linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),url('images/bark.jpg') no-repeat center fixed; 
-    background-size: cover;
+    background-image: url("images/papyrus.png");
     background-color:rgb(196, 225, 250);
 }
 
@@ -19,10 +15,6 @@ font-family: 'Courgette', cursive;
 font-family: 'Domine', serif;
 }
 
-.textColor {
-color: rgb(232, 240, 247);
-}
-
 .navbar {
     background-color: rgb(232, 240, 247);
     border-bottom: 2px solid white;
@@ -31,7 +23,8 @@ color: rgb(232, 240, 247);
 #main {
     margin-top: 90px;
     margin-bottom: 40px;
-    background-color:rgb(148, 146, 146, .5);
+    background-color:rgb(232, 240, 247, .7);
+    border: 2px solid white;
 }
 
 .aboutText {
@@ -48,6 +41,7 @@ color: rgb(232, 240, 247);
 #footer {
     background-color: rgb(232, 240, 247);
     border-top: 2px solid white;
+    padding-top: 10px;
 }
 
 a {
