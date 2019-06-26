@@ -19,6 +19,10 @@ font-family: 'Domine', serif;
     font-weight: bold;
 }
 
+.italic {
+    font-style: italic;
+}
+
 .navbar {
     background-color: rgb(232, 240, 247);
     border-bottom: 2px solid white;
@@ -29,6 +33,10 @@ font-family: 'Domine', serif;
     margin-bottom: 40px;
     background-color:rgb(232, 240, 247, .7);
     border: 2px solid white;
+}
+
+.media-body {
+    padding-left: 10px;
 }
 
 .aboutText {
