@@ -51,14 +51,6 @@ font-family: 'Domine', serif;
     /* margin-bottom: 30px; */
 }
 
-/* .rotate {
-  -webkit-transform:rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
-} */
-
 #footer {
     background-color: rgb(232, 240, 247);
     border-top: 2px solid white;
@@ -76,4 +68,8 @@ a:hover {
 .navbar-nav .nav-item.active .nav-link,
 .navbar-nav .nav-item:hover .nav-link {
     color: coral;
+}
+
+.over {
+    overflow-wrap: break-word;
 }
