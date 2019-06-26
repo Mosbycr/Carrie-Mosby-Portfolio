@@ -51,3 +51,8 @@ a {
 a:hover {
     color: coral;
 }
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: coral;
+}
