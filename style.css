@@ -15,6 +15,10 @@ font-family: 'Courgette', cursive;
 font-family: 'Domine', serif;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 .navbar {
     background-color: rgb(232, 240, 247);
     border-bottom: 2px solid white;
